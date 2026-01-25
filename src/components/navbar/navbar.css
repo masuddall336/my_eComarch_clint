@@ -1,0 +1,7 @@
+.ul{
+    box-shadow: 2px 2px 10px rgb(94, 93, 93);
+    border: 1px solid #ffffff67;
+}
+.main-menu ul a:hover{
+    /* background-color: #EC4024; */
+}
