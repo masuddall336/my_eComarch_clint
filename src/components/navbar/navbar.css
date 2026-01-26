@@ -1,16 +1,16 @@
 .ul {
     box-shadow: 2px 2px 10px rgb(94, 93, 93);
     border: 1px solid #ffffff67;
-    font-weight: bold;
-    text-shadow: 2px 2px 2px rgb(141, 141, 141);
+    font-weight: 500;
+    text-shadow: 1px 1px 2px rgb(141, 141, 141);
 }
 
 #nav_wrapper{
-    background-color: #f15c45;
+    background-color: #a7311e;
 }
 .main_ul,
 #sub_menu_wrapper {
-    background-color: #73534e;
+    background-color: #605655;
      background-image:
         radial-gradient(rgba(255, 255, 255, 0.15) 1px, transparent 1px),
         radial-gradient(rgba(0, 0, 0, 0.15) 1px, transparent 1px);
@@ -103,6 +103,9 @@
     font-size: 2rem;
     color: #EC4024;
     cursor: pointer;
+}
+.login{
+    box-shadow: 2px 2px 5px olivedrab;
 }
 
 @media only screen and (max-width: 1100px) {

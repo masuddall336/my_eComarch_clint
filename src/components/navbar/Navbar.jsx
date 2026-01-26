@@ -107,7 +107,7 @@ const Navbar = () => {
             </nav>
             {/* Login */}
             <div>
-                <a className='bg-[#EC4024] px-2 py-2 rounded  hover:shadow-lg transition-shadow' href="">Login</a>
+                <a className='bg-[#EC4024] px-2 py-2 rounded login' href="">Login</a>
             </div>
         </div>
     )
