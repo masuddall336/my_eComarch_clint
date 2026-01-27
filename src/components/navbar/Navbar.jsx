@@ -37,7 +37,7 @@ const Navbar = () => {
                         <NavLink id='main_menu' onClick={() => handleActivenav('beauty_personal_care')} className={activeNav === 'beauty_personal_care' ? 'bg-[#EC4024] py-2 px-2 transition-all duration-400 ease-in-out border-l border-r border-r-[#383737] border-l-[#fce0e0] relative' : ' py-2 px-2 transition-all duration-400 ease-in-out border-l border-r border-r-[#383737] border-l-[#fce0e0] bg-none hover:bg-[#EC4024] relative'}>
                             <li id='beauty_personalCare' className='flex items-center gap-1'>Beauty &amp; Personal Care <IoIosArrowDown width='100px' height='100px' />
                                 {/* first list item submenu */}
-                                <ul id='sub_menu_wrapper' className="submenu absolute bg-[#3a3a3a91] border-1 border-[#ffffff54] w-[130%]">
+                                <ul id='sub_menu_wrapper' className="submenu absolute border-1 border-[#ffffff54] w-[130%] z-10">
 
                                     <NavLink className='block border-t border-b border-t-[#ffffff75] border-b-[#fce0e0] py-2 pl-2 bg-[#3a3a3a91] hover:bg-[#EC4024] transition-all duration-400 relative' href="/skincare-products/"><li>Skincare Products</li> </NavLink>
                                     <NavLink className='block border-t border-b border-t-[#0d0c0c75] border-b-[#fce0e0] py-2 pl-2 bg-[#3a3a3a91] hover:bg-[#EC4024] transition-all duration-400' href="/skincare-products/"><li>Hair Care Products</li></NavLink>
@@ -57,7 +57,7 @@ const Navbar = () => {
                         <NavLink id='main_menu' onClick={() => handleActivenav('home_Essentials')} className={activeNav === 'home_Essentials' ? 'bg-[#EC4024] py-2 px-2 transition-all duration-400 ease-in-out border-l border-r border-r-[#383737] border-l-[#fce0e0] relative' : ' py-2 px-2 transition-all duration-400 ease-in-out border-l border-r border-r-[#383737] border-l-[#fce0e0] bg-none hover:bg-[#EC4024] relative'}>
                             <li id='beauty_personalCare' className='flex items-center gap-1'>Home Essentials <IoIosArrowDown width='100px' height='100px' />
                                 {/* Second list item submenu */}
-                                <ul id='sub_menu_wrapper' className="submenu absolute bg-[#3a3a3a91] border-1 border-[#ffffff54] w-[150%]">
+                                <ul id='sub_menu_wrapper' className="submenu absolute z-10 border-1 border-[#ffffff54] w-[150%]">
                                     <NavLink className='block border-t border-b border-t-[#ffffff75] border-b-[#fce0e0] py-2 pl-2 bg-[#3a3a3a91] hover:bg-[#EC4024] transition-all duration-400 relative' href="/skincare-products/"><li>Kitchen Tools & Gadgets</li></NavLink>
                                     <NavLink className='block border-t border-b border-t-[#0d0c0c75] border-b-[#fce0e0] py-2 pl-2 bg-[#3a3a3a91] hover:bg-[#EC4024] transition-all duration-400' href="/skincare-products/"><li>Storage & Organization</li></NavLink>
                                     <NavLink className='block border-t border-b border-t-[#0d0c0c75] border-b-[#fce0e0] py-2 pl-2 bg-[#3a3a3a91] hover:bg-[#EC4024] transition-all duration-400' href="/skincare-products/"><li>Shoe Racks</li></NavLink>
@@ -75,7 +75,7 @@ const Navbar = () => {
                         <NavLink id='main_menu' onClick={() => handleActivenav('electronics')} className={activeNav === 'electronics' ? 'bg-[#EC4024] py-2 px-2 transition-all duration-400 ease-in-out border-l border-r border-r-[#383737] border-l-[#fce0e0] relative' : ' py-2 px-2 transition-all duration-400 ease-in-out border-l border-r border-r-[#383737] border-l-[#fce0e0] bg-none hover:bg-[#EC4024] relative'}>
                             <li id='beauty_personalCare' className='flex items-center gap-1'>Electronics<IoIosArrowDown width='100px' height='100px' />
                                 {/* Third list item submenu */}
-                                <ul id='sub_menu_wrapper' className="submenu absolute bg-[#3a3a3a91] border-1 border-[#ffffff54] w-[200%]">
+                                <ul id='sub_menu_wrapper' className="submenu absolute z-10 border-1 border-[#ffffff54] w-[200%]">
                                     <NavLink className='block border-t border-b border-t-[#ffffff75] border-b-[#fce0e0] py-2 pl-2 bg-[#3a3a3a91] hover:bg-[#EC4024] transition-all duration-400 relative' href="/skincare-products/"><li>Phone Cases & Covers</li></NavLink>
                                     <NavLink className='block border-t border-b border-t-[#0d0c0c75] border-b-[#fce0e0] py-2 pl-2 bg-[#3a3a3a91] hover:bg-[#EC4024] transition-all duration-400' href="/skincare-products/"><li>Smartwatches</li></NavLink>
                                     <NavLink className='block border-t border-b border-t-[#0d0c0c75] border-b-[#fce0e0] py-2 pl-2 bg-[#3a3a3a91] hover:bg-[#EC4024] transition-all duration-400' href="/skincare-products/"><li>Security Cameras</li></NavLink>
@@ -91,7 +91,7 @@ const Navbar = () => {
                         <NavLink id='main_menu_islamic' onClick={() => handleActivenav('islamic_items')} className={activeNav === 'islamic_items' ? 'bg-[#EC4024] py-2 px-2 transition-all duration-400 ease-in-out border-l rounded-r border-l-[#fce0e0] relative' : ' py-2 px-2 transition-all duration-400 ease-in-out border-l rounded-r border-l-[#fce0e0] bg-none hover:bg-[#EC4024] relative'}>
                             <li id='beauty_personalCare' className='flex items-center gap-1'>Islamic Items<IoIosArrowDown />
                                 {/* Forth list item submenu */}
-                                <ul id='sub_menu_wrapper_islamic' className="submenu absolute bg-[#3a3a3a91] border-1 border-[#ffffff54] w-[200%]">
+                                <ul id='sub_menu_wrapper_islamic' className="submenu absolute z-10 border-1 border-[#ffffff54] w-[200%]">
                                     <NavLink className='block border-t border-b border-t-[#ffffff75] border-b-[#fce0e0] py-2 pl-2 bg-[#3a3a3a91] hover:bg-[#EC4024] transition-all duration-400 relative' href="/skincare-products/"><li>Book's</li></NavLink>
                                     <NavLink className='block border-t border-b border-t-[#0d0c0c75] border-b-[#fce0e0] py-2 pl-2 bg-[#3a3a3a91] hover:bg-[#EC4024] transition-all duration-400' href="/skincare-products/"><li>Wall Frames & Calligraphy</li></NavLink>
                                     <NavLink className='block border-t border-b border-t-[#0d0c0c75] border-b-[#fce0e0] py-2 pl-2 bg-[#3a3a3a91] hover:bg-[#EC4024] transition-all duration-400' href="/skincare-products/"><li>Alcohol-Free Attar & Fragrances</li></NavLink>

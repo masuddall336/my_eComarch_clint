@@ -1,1 +1,33 @@
-
+{
+  "carousel_content": [
+    {
+      "id": 1,
+      "img": "../public/carousel/carousel_1.jpg",
+      "title": "Discover New Destinations",
+      "description": "Explore amazing places around the world with curated travel guides.",
+      "button": "Explore Now",
+      "path": "/destinations"
+    },
+    {
+      "id": 2,
+      "img": "../public/carousel/carousel_2.jpg",
+      "title": "Plan Your Trip",
+      "description": "Create itineraries, manage bookings, and travel stress-free.",
+      "button": "Start Planning",
+      "path": "/plan-trip"
+    },
+    {
+      "id": 3,
+      "img": "../public/carousel/carousel_3.jpg",
+      "title": "Exclusive Deals",
+      "description": "Get access to special offers and discounts for your next adventure.",
+      "button": "View Deals",
+      "path": "/deals"
+    }
+  ],
+  "flash_sales":[
+    {
+      
+    }
+  ]
+}

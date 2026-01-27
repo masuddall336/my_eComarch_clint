@@ -5,20 +5,22 @@
     text-shadow: 1px 1px 2px rgb(141, 141, 141);
 }
 
-#nav_wrapper{
+#nav_wrapper {
     background-color: #a7311e;
 }
+
 .main_ul,
 #sub_menu_wrapper {
-    background-color: #605655;
-     background-image:
+    background-color: #6056556b;
+    background-image:
         radial-gradient(rgba(255, 255, 255, 0.15) 1px, transparent 1px),
         radial-gradient(rgba(0, 0, 0, 0.15) 1px, transparent 1px);
     background-size: 4px 4px;
     background-position: 0 0, 2px 2px;
 }
+
 #sub_menu_wrapper {
-    background-color: #698b9b;
+    background-color: #698b9bcd;
     /* classic Windows teal */
     background-image:
         radial-gradient(rgba(255, 255, 255, 0.15) 1px, transparent 1px),
@@ -28,7 +30,7 @@
 }
 
 #sub_menu_wrapper_islamic {
-    background-color: #698b9b;
+    background-color: #6056556b;
     /* classic Windows teal */
     background-image:
         radial-gradient(rgba(255, 255, 255, 0.15) 1px, transparent 1px),
@@ -104,15 +106,17 @@
     color: #EC4024;
     cursor: pointer;
 }
-.login{
+
+.login {
     box-shadow: 2px 2px 5px olivedrab;
 }
 
 @media only screen and (max-width: 1100px) {
-    #three_line{
+    #three_line {
         display: block;
     }
-    .main_ul{
+
+    .main_ul {
         display: none;
     }
 }

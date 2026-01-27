@@ -1,9 +1,21 @@
-import React from 'react'
+
+import { useEffect, useState } from 'react';
+import Carousel from '../carousel/Carousel'
+import FlashSales from '../flash_sales/FlashSales'
 
 const Home = () => {
+  const [datas, setDatas] = useState([]);
+
+  useEffect(() => {
+    fetch('/api.json') // public folder path
+      .then((res) => res.json())
+      .then((data) => setDatas(data))
+      .catch((err) => console.error('Error fetching data:', err));
+  }, []);
   return (
     <div>
-      I am Home.
+      <Carousel></Carousel>
+      <FlashSales datas={datas}></FlashSales>
     </div>
   )
 }
