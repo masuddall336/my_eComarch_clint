@@ -4,7 +4,10 @@ import Carousel from '../carousel/Carousel'
 import FlashSales from '../flash_sales/FlashSales'
 
 const Home = () => {
-  const [datas, setDatas] = useState([]);
+  const [datas, setDatas] = useState({
+    carousel_content: [],
+    flash_sales: [],
+  });
 
   useEffect(() => {
     fetch('/api.json') // public folder path

@@ -1,0 +1,16 @@
+.button{
+    border: 1px solid #EE4036;
+    padding: 4px 10px;
+    color: #EE4036;
+    font-weight: bold;
+}
+.card_flash_sale {
+    transition: 
+        transform 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+        box-shadow 0.4s ease;
+}
+
+.card_flash_sale:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.555);
+}
