@@ -106,7 +106,7 @@
     {
       "id": 7,
       "img": "../public/flash_sales/product_6.avif",
-      "title": "Exclusive Deals",
+      "title": "Exclusive Deals ",
       "description": "Get access to special offers and discounts for your next adventure.",
       "price": 150,
       "previous_price": 100,
@@ -116,18 +116,192 @@
     }
   ],
   "catagorys": [
-    {"id": 1, "scking-care": "sckincare Products"},
-    {"id": 1, "scking-care": "Hair Care Products"},
-    {"id": 1, "scking-care": "Body Care Products"},
-    {"id": 1, "scking-care": "Oral Care Products"},
-    {"id": 1, "scking-care": "Men’s Grooming"},
-    {"id": 1, "scking-care": "Beauty Tools & Devices"},
-    {"id": 1, "scking-care": "Makeup & Cosmetics"},
-    {"id": 1, "scking-care": "Kitchen Tools & Gadgets"},
-    {"id": 1, "scking-care": "Storage & Organization"},
-    {"id": 1, "scking-care": "Shoe Racks"},
-    {"id": 1, "scking-care": "Home Security"},
-    {"id": 1, "scking-care": "Kitchen Tools & Gadgets"},
-    {"id": 1, "scking-care": "Storage & Organization"}
+    {
+      "id": 1,
+      "catagory_name": "sckincare Products",
+      "img": "./catagoris/sckin-care.png"
+    },
+    {
+      "id": 2,
+      "catagory_name": "Hair Care Products",
+      "img": "./catagoris/heir-product.png"
+    },
+    {
+      "id": 3,
+      "catagory_name": "Body Care Products",
+      "img": "./catagoris/body-care.png"
+    },
+    {
+      "id": 4,
+      "catagory_name": "Oral Care Products",
+      "img": "./catagoris/Oral-care.png"
+    },
+    {
+      "id": 5,
+      "catagory_name": "Beauty Tools & Devices",
+      "img": "./catagoris/Beauty-tools.png"
+    },
+    {
+      "id": 6,
+      "catagory_name": "Makeup & Cosmetics",
+      "img": "./catagoris/Makeup-Cosmetics.png"
+    },
+    {
+      "id": 7,
+      "catagory_name": "Kitchen Tools & Gadgets",
+      "img": "./catagoris/Kitchen tools.png"
+    },
+    {
+      "id": 8,
+      "catagory_name": "Storage & Organization",
+      "img": "./catagoris/Storage-organaiger.png"
+    },
+    {
+      "id": 9,
+      "catagory_name": "Shoe Racks",
+      "img": "./catagoris/Shoe-racks.png"
+    },
+    {
+      "id": 10,
+      "catagory_name": "Home Security",
+      "img": "./catagoris/home-security.png"
+    },
+    {
+      "id": 11,
+      "catagory_name": "Phone Cases & Covers",
+      "img": "./catagoris/Phone-case-cover.png"
+    },
+    {
+      "id": 11,
+      "catagory_name": "Smartwatches",
+      "img": "./catagoris/smart-watch.png"
+    },
+    {
+      "id": 11,
+      "catagory_name": "Security Cameras",
+      "img": "./catagoris/Security Cammera.png"
+    },
+    {
+      "id": 11,
+      "catagory_name": "Power Banks",
+      "img": "./catagoris/power-bank.png"
+    },
+    {
+      "id": 11,
+      "catagory_name": "Book's",
+      "img": "./catagoris/book.png"
+    },
+    {
+      "id": 11,
+      "catagory_name": "Wall Frames & Calligraphy",
+      "img": "./catagoris/wall frame.png"
+    },
+    {
+      "id": 11,
+      "catagory_name": "Alcohol-Free Attar & Fragrances",
+      "img": "./catagoris/parfium.png"
+    },
+    {
+      "id": 11,
+      "catagory_name": "Islamic Gift Boxes",
+      "img": "./catagoris/islamic-gift-box.png"
+    }
+  ],
+  "all_products": [
+    {
+      "id": 1,
+      "img": "../public/flash_sales/product_1.avif",
+      "short_title": "Exclusive Deals",
+      "price": 150,
+      "previous_price": 100,
+      "discount": 30,
+      "button": "View Deals",
+      "path": "/deals",
+      "product_details": [
+        {
+          "big_title": ""
+        },
+        {
+          "description": "Get access to special offers and discounts for your next adventure."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "img": "../public/flash_sales/product_2.avif",
+      "title": "Exclusive Deals",
+      "description": "Get access to special offers and discounts for your next adventure.",
+      "price": 150,
+      "previous_price": 100,
+      "discount": 40,
+      "button": "View Deals",
+      "path": "/deals"
+    },
+    {
+      "id": 3,
+      "img": "../public/flash_sales/product_3.avif",
+      "title": "Exclusive Deals",
+      "description": "Get access to special offers and discounts for your next adventure.",
+      "price": 150,
+      "previous_price": 100,
+      "discount": 55,
+      "button": "View Deals",
+      "path": "/deals"
+    },
+    {
+      "id": 4,
+      "img": "../public/flash_sales/product_4.avif",
+      "title": "Exclusive Deals",
+      "description": "Get access to special offers and discounts for your next adventure.",
+      "price": 150,
+      "previous_price": 100,
+      "discount": 60,
+      "button": "View Deals",
+      "path": "/deals"
+    },
+    {
+      "id": 5,
+      "img": "../public/flash_sales/product_5.avif",
+      "title": "Exclusive Deals",
+      "description": "Get access to special offers and discounts for your next adventure.",
+      "price": 150,
+      "previous_price": 100,
+      "discount": 20,
+      "button": "View Deals",
+      "path": "/deals"
+    },
+    {
+      "id": 5,
+      "img": "../public/flash_sales/product_5.avif",
+      "title": "Exclusive Deals",
+      "description": "Get access to special offers and discounts for your next adventure.",
+      "price": 150,
+      "   ": 100,
+      "discount": 20,
+      "button": "View Deals",
+      "path": "/deals"
+    },
+    {
+      "id": 6,
+      "img": "../public/flash_sales/product_6.avif",
+      "title": "Exclusive Deals",
+      "description": "Get access to special offers and discounts for your next adventure.",
+      "price": 150,
+      "previous_price": 100,
+      "discount": 20,
+      "button": "View Deals",
+      "path": "/deals"
+    },
+    {
+      "id": 7,
+      "img": "../public/flash_sales/product_6.avif",
+      "title": "Exclusive Deals ",
+      "description": "Get access to special offers and discounts for your next adventure.",
+      "price": 150,
+      "previous_price": 100,
+      "discount": 20,
+      "button": "View Deals",
+      "path": "/deals"
+    }
   ]
 }
