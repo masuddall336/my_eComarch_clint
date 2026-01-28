@@ -61,9 +61,7 @@ const Navbar = () => {
                                     <NavLink className='block border-t border-b border-t-[#ffffff75] border-b-[#fce0e0] py-2 pl-2 bg-[#3a3a3a91] hover:bg-[#EC4024] transition-all duration-400 relative' href="/skincare-products/"><li>Kitchen Tools & Gadgets</li></NavLink>
                                     <NavLink className='block border-t border-b border-t-[#0d0c0c75] border-b-[#fce0e0] py-2 pl-2 bg-[#3a3a3a91] hover:bg-[#EC4024] transition-all duration-400' href="/skincare-products/"><li>Storage & Organization</li></NavLink>
                                     <NavLink className='block border-t border-b border-t-[#0d0c0c75] border-b-[#fce0e0] py-2 pl-2 bg-[#3a3a3a91] hover:bg-[#EC4024] transition-all duration-400' href="/skincare-products/"><li>Shoe Racks</li></NavLink>
-                                    <NavLink className='block border-t border-b border-t-[#0d0c0c75] border-b-[#fce0e0] py-2 pl-2 bg-[#3a3a3a91] hover:bg-[#EC4024] transition-all duration-400' href="/skincare-products/"><li>Home Security</li></NavLink>
-                                    <NavLink className='block border-t border-b border-t-[#0d0c0c75] border-b-[#fce0e0] py-2 pl-2 bg-[#3a3a3a91] hover:bg-[#EC4024] transition-all duration-400' href="/skincare-products/"><li>Beauty Tools &amp; Devices</li></NavLink>
-                                    <NavLink className='block border-t  border-t-[#0d0c0c75]  py-2 pl-2 bg-[#3a3a3a91] hover:bg-[#EC4024]' href="/skincare-products/"><li>Makeup &amp; Cosmetics</li></NavLink>
+                                    <NavLink className='block border-t  border-t-[#0d0c0c75]  py-2 pl-2 bg-[#3a3a3a91] hover:bg-[#EC4024]' href="/skincare-products/"><li>Home Security</li></NavLink>
                                 </ul>
                                 <div className='top_arrow absolute top-[63%] left-[90%] opacity-0 transition-all duration-400'>
                                     <IoMdArrowDropup className='' />

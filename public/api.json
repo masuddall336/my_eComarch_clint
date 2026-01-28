@@ -114,5 +114,20 @@
       "button": "View Deals",
       "path": "/deals"
     }
+  ],
+  "catagorys": [
+    {"id": 1, "scking-care": "sckincare Products"},
+    {"id": 1, "scking-care": "Hair Care Products"},
+    {"id": 1, "scking-care": "Body Care Products"},
+    {"id": 1, "scking-care": "Oral Care Products"},
+    {"id": 1, "scking-care": "Men’s Grooming"},
+    {"id": 1, "scking-care": "Beauty Tools & Devices"},
+    {"id": 1, "scking-care": "Makeup & Cosmetics"},
+    {"id": 1, "scking-care": "Kitchen Tools & Gadgets"},
+    {"id": 1, "scking-care": "Storage & Organization"},
+    {"id": 1, "scking-care": "Shoe Racks"},
+    {"id": 1, "scking-care": "Home Security"},
+    {"id": 1, "scking-care": "Kitchen Tools & Gadgets"},
+    {"id": 1, "scking-care": "Storage & Organization"}
   ]
 }

@@ -2,6 +2,7 @@
 import { useEffect, useState } from 'react';
 import Carousel from '../carousel/Carousel'
 import FlashSales from '../flash_sales/FlashSales'
+import Catagory from '../catagory/Catagory';
 
 const Home = () => {
   const [datas, setDatas] = useState({
@@ -19,6 +20,7 @@ const Home = () => {
     <div>
       <Carousel></Carousel>
       <FlashSales datas={datas}></FlashSales>
+      <Catagory></Catagory>
     </div>
   )
 }
