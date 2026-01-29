@@ -4,6 +4,7 @@ import Carousel from '../carousel/Carousel'
 import FlashSales from '../flash_sales/FlashSales'
 import Catagory from '../catagory/Catagory';
 import JustForYou from '../justForYou/JustForYou';
+import { useLoaderData } from 'react-router';
 
 const Home = () => {
   const [datas, setDatas] = useState({
@@ -24,7 +25,7 @@ const Home = () => {
       <Carousel></Carousel>
       <FlashSales datas={datas}></FlashSales>
       <Catagory catagory={datas}></Catagory>
-      <JustForYou products={datas}></JustForYou>
+      <JustForYou></JustForYou>
     </div>
   )
 }
