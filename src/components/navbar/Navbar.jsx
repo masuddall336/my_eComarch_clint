@@ -104,8 +104,9 @@ const Navbar = () => {
                 </nav>
             </nav>
             {/* Login */}
-            <div>
-                <a className='bg-[#EC4024] px-2 py-2 rounded login' href="">Login</a>
+            <div className='flex gap-3'>
+                <NavLink to='/signUp' className=' signUp' href="">Sign Up</NavLink>
+                <NavLink to='/signIn' className=' login' href="">Login</NavLink>
             </div>
         </div>
     )
