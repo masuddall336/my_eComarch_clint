@@ -1,0 +1,12 @@
+.viwe_delet svg{
+color: black;
+font-size: 1.5rem;
+border: 2px solid rgb(26, 116, 201);
+border-radius: 3px;
+}
+.viwe_delet .delet svg{
+color: black;
+font-size: 1.5rem;
+border: 2px solid red;
+border-radius: 3px;
+}

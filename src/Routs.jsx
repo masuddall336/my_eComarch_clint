@@ -26,6 +26,7 @@ let router = createBrowserRouter([
             },
             {
                 path: 'product-update/:id',
+                loader: ({params})=> fetch(`http://localhost:3000/products/${params.id}`),
                 Component: Update
             }
 

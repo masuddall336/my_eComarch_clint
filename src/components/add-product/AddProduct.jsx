@@ -2,30 +2,39 @@ import React from 'react'
 import Swal from 'sweetalert2';
 
 const AddProduct = () => {
+
     const handeSubmit = e => {
         e.preventDefault();
         const form = e.target;
-        const formData = new FormData(form);
-        const datas = Object.fromEntries(formData.entries())
-        console.log(datas);
+        const formDatas = new FormData(form);
+        const productData = Object.fromEntries(formDatas.entries())
+        console.log(productData);
 
+
+        // post data
         fetch('http://localhost:3000/products', {
             method: "POST",
             headers: {
                 "Content-type": "application/json"
             },
-            body: JSON.stringify(datas)
+            body: JSON.stringify(productData)
         })
             .then(res => res.json())
             .then(data => {
+                console.log(data);
                 
-                Swal.fire({
-                    title: "Prodcut added Successfully",
-                    icon: "success",
-                    draggable: true
-                });
+                if (data.insertedId) {
+                    Swal.fire({
+                        title: "Added Yout Data Successfully",
+                        icon: "success",
+                        draggable: true
+                    });
+                }
             })
+
+
     }
+
     return (
         <div className=' py-20'>
             <div>
