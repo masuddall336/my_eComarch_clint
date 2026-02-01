@@ -1,8 +1,32 @@
-import React from 'react';
+import React, { use } from 'react';
 import { NavLink } from 'react-router';
 import logo from '../../../public/bhorosha.png'
+import { AuthContext } from '../../context/AuthContext';
 
 const Signup = () => {
+  const { creatUser } = use(AuthContext);
+  console.log(creatUser);
+
+  const signUp = (e) => {
+    e.preventDefault();
+    const form = e.target;
+    const formData = new FormData(form);
+    const email = formData.get('email');
+    const password = formData.get('password');
+    console.log(email, password);
+
+    creatUser(email, password)
+    .then(rasult =>{
+      console.log(rasult);
+      
+    })
+    .catch(error=>{
+      console.log(error);
+      
+    })
+    
+  }
+
   return (
     <div className='bg-[#101828]'>
       <div class="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
@@ -12,7 +36,7 @@ const Signup = () => {
         </div>
 
         <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
-          <form action="#" method="POST" class="space-y-6">
+          <form onSubmit={signUp} method="POST" class="space-y-6">
             <div>
               <label for="email" class="block text-sm/6 font-medium text-gray-100">Email address</label>
               <div class="mt-2">
@@ -36,7 +60,7 @@ const Signup = () => {
 
           <p class="mt-10 text-center text-sm/6 text-gray-400">
             are you a member?
-            <NavLink to="/signIn" class="font-semibold text-indigo-400 hover:text-indigo-300">Login in</NavLink>
+            <NavLink to="/signIn" className="font-semibold text-indigo-400 hover:text-indigo-300 cursor-pointer">Login in</NavLink>
           </p>
         </div>
       </div>
